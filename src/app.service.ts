@@ -1,7 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
 import { AxiosError, AxiosResponse } from 'axios';
-import { Observable, catchError, firstValueFrom } from 'rxjs';
+import { Observable, catchError } from 'rxjs';
 
 interface Service {
   rule: string;
